@@ -1,4 +1,6 @@
-![](https://github.com/alexandre-vl/pronote-beautify/blob/master/icons/logo-pronote.png?raw=true)
+<p align="center">
+  <img src="https://github.com/alexandre-vl/pronote-beautify/blob/master/icons/logo-pronote.png?raw=true" />
+</p>
 
 <h1 align="center">Pronote-Beautify 🎨</h1>
 <p>
