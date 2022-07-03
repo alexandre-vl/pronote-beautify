@@ -122,6 +122,33 @@ chrome.extension.sendMessage({}, function (response) {
           },
           all: true,
         },
+        {
+          class_name: "menu-principal_niveau0",
+          style: {
+            gap: "10px",
+          },
+          all: true,
+        },
+        {
+          class_name: "menu-container",
+          style: {
+            margin: "5px",
+          },
+        },
+        {
+          class_name: "menu-principal_niveau1",
+          style: {
+            borderRadius: "2px",
+          },
+          all: true,
+        },
+        {
+          class_name: "wrap h4",
+          style: {
+            color: "#ECEFF4",
+          },
+          all: true,
+        },
       ];
 
       var id_list = [
@@ -149,8 +176,8 @@ chrome.extension.sendMessage({}, function (response) {
 		.item-menu_niveau0:hover, .item-menu_niveau0.focused-in, .item-menu_niveau0.item-selected {
 		color: #eceff4 !important;   background: #3b4252 !important; border-radius: 5px !important;
 		}
-
     .ObjetGrille .EtiquetteCours {background: #f8f9fb !important; border-radius: 2px !important;}	 
+    .objetbandeauentete_global .objetBandeauEntete_menu:not(.ongletLudique) {height: inherit !important;}
 	  `;
 
       if (style.styleSheet) {
