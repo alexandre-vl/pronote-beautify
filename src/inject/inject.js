@@ -2,15 +2,9 @@ chrome.extension.sendMessage({}, function (response) {
   var readyStateCheckInterval = setInterval(function () {
     if (
       document.readyState === "complete" &&
-      document.getElementById("GInterface.Instances[2]_defaut_") !== null
+      document.getElementsByClassName("EmploiDuTemps_Element")[0]
     ) {
       clearInterval(readyStateCheckInterval);
-
-      // ----------------------------------------------------------
-      // This part of the script triggers when page is done loading
-      console.log("Hello. This message was sent from scripts/inject.js");
-      // ----------------------------------------------------------
-
       var class_list = [
         {
           class_name: "objetBandeauEntete_menu",
@@ -112,6 +106,22 @@ chrome.extension.sendMessage({}, function (response) {
             backgroundColor: "#D8DEE9",
           },
         },
+
+        {
+          class_name: "EtiquetteCours",
+          style: {
+            backgroundColor: "#d8dee9 !important",
+          },
+          all: true,
+        },
+
+        {
+          class_name: "EmploiDuTemps_Element",
+          style: {
+            borderRadius: "2px !important",
+          },
+          all: true,
+        },
       ];
 
       var id_list = [
@@ -139,7 +149,8 @@ chrome.extension.sendMessage({}, function (response) {
 		.item-menu_niveau0:hover, .item-menu_niveau0.focused-in, .item-menu_niveau0.item-selected {
 		color: #eceff4 !important;   background: #3b4252 !important; border-radius: 5px !important;
 		}
-	 
+
+    .ObjetGrille .EtiquetteCours {background: #f8f9fb !important; border-radius: 2px !important;}	 
 	  `;
 
       if (style.styleSheet) {
