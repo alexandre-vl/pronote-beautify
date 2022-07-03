@@ -92,14 +92,14 @@ chrome.extension.sendMessage({}, function (response) {
           },
         },
 
-        {
+        /*         {
           class_name: "AffichagePageAccueil",
           style: {
-            backgroundColor: "#f8f9fb",
+            backgroundColor: "f8f9fb" /*  "#2b3443", ,
             backgroundImage: "none",
           },
         },
-
+ */
         {
           class_name: "menu-commandes",
           style: {
@@ -142,23 +142,23 @@ chrome.extension.sendMessage({}, function (response) {
           },
           all: true,
         },
-        {
-          class_name: "wrap h4",
+        /*         {
+          class_name: "widget",
           style: {
-            color: "#ECEFF4",
+            backgroundColor: "#202733",
           },
           all: true,
         },
+        {
+          class_name: "ThemeTaupe",
+          style: {
+            backgroundColor: "#2b3443",
+          },
+          all: true,
+        }, */
       ];
 
       var id_list = [
-        {
-          id_name: "GInterface.Instances[2]",
-          style: {
-            backgroundColor: "#f8f9fb",
-          },
-        },
-
         {
           id_name: "GInterface.Instances[0].Instances[1]",
           style: {
