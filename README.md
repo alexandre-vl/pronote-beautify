@@ -1,3 +1,5 @@
+![](https://github.com/alexandre-vl/pronote-beautify/blob/master/icons/logo-pronote.png?raw=true)
+
 <h1 align="center">Pronote-Beautify 🎨</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
