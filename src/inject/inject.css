@@ -1,0 +1,11 @@
+.objetBandeauEntete_menu {
+  background-color: #2e3440;
+}
+
+.AvecMain {
+  display: block;
+}
+
+.SansMain {
+  display: none;
+}
