@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Pronote-Beautify 👋</h1>
+<h1 align="center">Pronote-Beautify 🎨</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/kefranabg/readme-md-generator#readme" target="_blank">
@@ -12,6 +12,8 @@
 > Chrome extension for beautify pronote client
 
 ### 🏠 [Homepage](https://github.com/kefranabg/readme-md-generator#readme)
+
+![](https://github.com/alexandre-vl/pronote-beautify/blob/master/demo_ext.jpg?raw=true)
 
 ## Install
 
